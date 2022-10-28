@@ -37,7 +37,7 @@ def update_command():
 
 window=Tk()
 
-window.wm_title("BookStore")
+window.wm_title("Book Store")
 
 l1=Label(window,text="Title")
 l1.grid(row=0,column=0)
@@ -90,13 +90,13 @@ b3.grid(row=4,column=3)
 b4=Button(window,text="Update selected", width=12,command=update_command)
 b4.grid(row=5,column=3)
 
-b5=Button(window,text="Delete selected", width=12,command=delete_command)
+b5=Button(window,text="Delete Selected Item", width=12,command=delete_command)
 b5.grid(row=6,column=3)
 
 b6=Button(window,text="Close", width=12,command=window.destroy)
 b6.grid(row=7,column=3)
 
-f1=Label(window,text="Created By : Gaurav Kumar")
+f1=Label(window,text="Created By : Gaurav Kumar Jha")
 f1.grid(row=8,column=1,columnspan=4)
 
 window.mainloop()
